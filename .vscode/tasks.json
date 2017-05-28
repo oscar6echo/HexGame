@@ -1,0 +1,23 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "showOutput": "always",
+    "tasks": [
+        {
+            "taskName": "buildAndLink",
+            "echoCommand": true,
+            "isShellCommand": true,
+            "suppressTaskName": true,
+            "isBuildCommand": true,
+            "command": "bash",
+            "args": [
+                "build.sh"
+            ]
+        },
+        {
+            "taskName": "run",
+            "command": "./bin/main.out"
+        }
+    ]
+}
