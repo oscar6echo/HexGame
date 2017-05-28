@@ -290,6 +290,7 @@ bool TreeNode::isTerminal()
 float TreeNode::computeUCT()
 {
     // See wikipedia for more info: https://en.wikipedia.org/wiki/Monte_Carlo_tree_search
+    // Better watch this video https://www.youtube.com/watch?v=UXW2yZndl7U
     float EXPLORATION_PARAM = 2; // PARAM TO FINE TUNE
 
     int rootNbVisit = (ptr_root) ? ptr_root->getNbVisit() : nbVisit;
