@@ -1,5 +1,5 @@
 
-## HexGame
+## HexGame - Rudimentary AI Player
 
 ### Description
 
