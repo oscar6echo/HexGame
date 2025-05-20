@@ -13,8 +13,9 @@ enum class Stone
     None // Empty
 };
 
-
-ostream &operator<<(ostream &out, const Stone &s);
+#include <iostream>
+std::ostream &operator<<(std::ostream &out, const Stone &s);
+// ostream &operator<<(ostream &out, const Stone &s);
 
 #endif
 

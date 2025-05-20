@@ -10,6 +10,7 @@
 #include "HexGame.hpp"
 #include "Random.hpp"
 #include "TreeNode.hpp"
+#include <algorithm>
 
 using namespace std;
 
